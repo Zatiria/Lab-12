@@ -1,0 +1,101 @@
+body
+{ background-color: #CCFFFF; }
+#background
+{
+	width: 500px;  
+	height: 650px;
+
+	background-color: #9999FF;
+	border-radius: 20px;
+	border: 5px solid #6666FF;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.div
+{
+	width: 200px;  
+	height: 50px;
+	background-color: #8282fa;
+	border-radius: 20px;
+	border-color: #6666FF;
+	font-size: 150%;
+	color: #0000bb;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	vertical-align:top;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button
+{
+	width: 300px;  
+	height: 60px;
+	left: 50%;
+	top: 67%;
+}
+#card
+{
+    font-size: 200%;
+	left: 50%;
+	top: 27%;
+	width: 450px;  
+	height: 300px;
+}
+#answer
+{
+    width: 300px; 
+    left: 50%;
+	top: 57%;
+}
+#dRaund
+{
+    width: 150px;
+	left: 50%;
+	top: 83%;
+}
+#dRight
+{
+    left: 25%;
+	top: 93%;
+}
+#dWrong
+{
+    left: 75%;
+	top: 93%;
+}
+.level
+{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	vertical-align:top;
+	text-align: center;
+	top: 75%;
+}
+#level1
+{	left: 10%;	}
+#level2
+{	left: 40%;	}
+#level3
+{	left: 70%;	}
+label
+{
+	font-size: 120%;
+	color: #0000bb;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 75%;
+}
+#lab1
+{	left: 23%;	}
+#lab2
+{	left: 51%;	}
+#lab3
+{	left: 81%;	}

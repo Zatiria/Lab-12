@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Лабораторна робота №11</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	
+	<div id = 'background'>
+        <div class = 'div' id = 'card'>
+            <p id = 'word'>New word</p>
+        </div>
+
+        <input class = 'div' id = 'answer'>
+
+		<button class = 'div' id = 'button'>Перевірити</button>
+
+        <input type = 'radio' name = 'lev' class = 'level' id = 'level1' value = 'Початковий'>
+        <label for = 'level1' id = 'lab1'>Початковий</label>
+        <input type = 'radio' name = 'lev' class = 'level' id = 'level2' value = 'Середній'>
+        <label for = 'level2' id = 'lab2'>Середній</label>
+        <input type = 'radio' name = 'lev' class = 'level' id = 'level3' value = 'Високий'>
+        <label for = 'level3' id = 'lab3'>Високий</label>
+
+        <div class = 'div' id = 'dRaund'>
+            <p id = 'raund'>1</p> /10
+        </div>
+
+        <div class = 'div' id = 'dRight'>
+            Вірно: <p id = 'right'>0</p>
+        </div>
+
+        <div class = 'div' id = 'dWrong'>
+            Невірно: <p id = 'wrong'>0</p>
+        </div>
+
+	</div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
